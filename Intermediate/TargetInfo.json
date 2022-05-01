@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Naves",
+			"Path": "C:\\Users\\44792\\Pro_Unreal\\Naves\\Source\\Naves.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NavesEditor",
+			"Path": "C:\\Users\\44792\\Pro_Unreal\\Naves\\Source\\NavesEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Naves.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F2A2EA84-322B-44C4-81C3-5DC6BE866851}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Naves.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NavesEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{F4C504F1-0E2D-42E2-8638-32377F44D8AE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Naves">
+      <UniqueIdentifier>{D56132F8-66FA-4060-B07A-2425B940D233}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Naves\Enemigo1NaveAcuatica.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo1NaveAcuatica.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Enemigo1NaveAerea.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo1NaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Enemigo1NaveTerrestre.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo1NaveTerrestre.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Enemigo2NaveAerea.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo2NaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Enemigo2NaveTerrestre.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo2NaveTerrestre.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Enemigo3NaveAerea.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Enemigo3NaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\JugadorNaveAerea.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\JugadorNaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Nave.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Nave.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\NaveAcuatica.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\NaveAcuatica.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\NaveAerea.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\NaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Naves\Naves.Build.cs">
+      <Filter>Source\Naves</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Naves\Naves.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Naves.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\NavesGameModeBase.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\NavesGameModeBase.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\NaveTerrestre.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\NaveTerrestre.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
