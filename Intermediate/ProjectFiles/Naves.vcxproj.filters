@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Naves.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C038ED52-1424-415E-8CE0-C58A8E339F6A}</UniqueIdentifier>
+      <UniqueIdentifier>{5F001DF7-0D2B-490A-8DCE-0D073F4582B6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Naves.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{042AEE2C-8F88-44F0-8FD2-F8F1A84A9B26}</UniqueIdentifier>
+      <UniqueIdentifier>{F89F984E-4DFA-4DC9-AEC6-CD8B32B7FCE6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Naves">
-      <UniqueIdentifier>{BC993E92-F4C0-4E50-A8EF-CF298BC41B1E}</UniqueIdentifier>
+      <UniqueIdentifier>{81FBCA85-B4FE-48A1-B5A3-C3B9AF67F340}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Naves\Bala.cpp">
       <Filter>Source\Naves</Filter>
