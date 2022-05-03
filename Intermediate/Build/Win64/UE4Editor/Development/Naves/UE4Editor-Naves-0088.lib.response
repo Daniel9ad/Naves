@@ -3,7 +3,7 @@
 /MACHINE:x64
 /SUBSYSTEM:WINDOWS
 /DEF
-/NAME:"UE4Editor-Naves-0089.dll"
+/NAME:"UE4Editor-Naves-0088.dll"
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\NavesEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
@@ -45,4 +45,4 @@
 "C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Proyectil.gen.cpp.obj"
 "C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Rayo.gen.cpp.obj"
 "C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Default.rc2.res"
-/OUT:"C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\UE4Editor-Naves-0089.lib"
+/OUT:"C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\UE4Editor-Naves-0088.lib"
