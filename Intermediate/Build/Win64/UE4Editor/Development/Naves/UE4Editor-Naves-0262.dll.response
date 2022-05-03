@@ -99,7 +99,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\44792\Pro_Unreal\Naves\Binaries\Win64\UE4Editor-Naves.dll"
-/IMPLIB:"C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\UE4Editor-Naves.suppressed.lib"
-/PDB:"C:\Users\44792\Pro_Unreal\Naves\Binaries\Win64\UE4Editor-Naves.pdb"
+/OUT:"C:\Users\44792\Pro_Unreal\Naves\Binaries\Win64\UE4Editor-Naves-0262.dll"
+/IMPLIB:"C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\UE4Editor-Naves-0262.suppressed.lib"
+/PDB:"C:\Users\44792\Pro_Unreal\Naves\Binaries\Win64\UE4Editor-Naves-0262.pdb"
 /ignore:4078
