@@ -19,9 +19,14 @@ public:
 	// Constructor
 	ANave();
 
-	// Nombres estáticos para enlaces de eje
+	// Nombres estáticos para enlaces
 	static const FName MoveVertical;
 	static const FName MoveHorizontal;
+	static const FName FireBala;
+	static const FName FireRayo;
+	static const FName FireMisil;
+	static const FName FireBomba;
+
 
 protected:
 	// Llamado cuando comienza el juego o cuando se genera

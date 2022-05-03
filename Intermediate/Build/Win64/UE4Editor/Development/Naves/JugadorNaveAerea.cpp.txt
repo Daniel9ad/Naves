@@ -1,0 +1,30 @@
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Definitions.Naves.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\JugadorNaveAerea.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\NaveAerea.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Nave.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Nave.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\NaveAerea.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\JugadorNaveAerea.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Proyectil.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Proyectil.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Bala.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Bala.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Rayo.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Rayo.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Misil.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Misil.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Bomba.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Bomba.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/SpringArmComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SpringArmComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

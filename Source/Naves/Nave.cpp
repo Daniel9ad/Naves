@@ -6,11 +6,15 @@
 #include "Engine/CollisionProfile.h"
 #include "UObject/ConstructorHelpers.h"
 
-#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Green, text)
+#define print(text) if (GEngine) GEngine->AddOnScreenDebugMessage(-1, 6.f, FColor::Green, text
 
-// Declaracion de propiedades
+// Nombres estáticos para enlaces de eje
 const FName ANave::MoveVertical("MoveVertical");
 const FName ANave::MoveHorizontal("MoveHorizontal");
+const FName ANave::FireBala("FireBala");
+const FName ANave::FireRayo("FireRayo");
+const FName ANave::FireMisil("FireMisil");
+const FName ANave::FireBomba("FireBomba");
 
 // Constructor
 ANave::ANave()

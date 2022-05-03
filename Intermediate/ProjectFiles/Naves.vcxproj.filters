@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Naves.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F2A2EA84-322B-44C4-81C3-5DC6BE866851}</UniqueIdentifier>
+      <UniqueIdentifier>{C038ED52-1424-415E-8CE0-C58A8E339F6A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Naves.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\NavesEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F4C504F1-0E2D-42E2-8638-32377F44D8AE}</UniqueIdentifier>
+      <UniqueIdentifier>{042AEE2C-8F88-44F0-8FD2-F8F1A84A9B26}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +29,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Naves">
-      <UniqueIdentifier>{D56132F8-66FA-4060-B07A-2425B940D233}</UniqueIdentifier>
+      <UniqueIdentifier>{BC993E92-F4C0-4E50-A8EF-CF298BC41B1E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Naves\Bala.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Bala.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Bomba.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Bomba.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Cola.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Cola.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Naves\Enemigo1NaveAcuatica.cpp">
       <Filter>Source\Naves</Filter>
     </ClCompile>
@@ -71,6 +91,12 @@
     <ClInclude Include="..\..\Source\Naves\JugadorNaveAerea.h">
       <Filter>Source\Naves</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Misil.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Misil.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Naves\Nave.cpp">
       <Filter>Source\Naves</Filter>
     </ClCompile>
@@ -108,6 +134,18 @@
       <Filter>Source\Naves</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Naves\NaveTerrestre.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Proyectil.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Proyectil.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\Rayo.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\Rayo.h">
       <Filter>Source\Naves</Filter>
     </ClInclude>
   </ItemGroup>

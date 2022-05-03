@@ -1,8 +1,0 @@
-C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Definitions.Naves.h
-C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Enemigo1NaveAerea.h
-C:\Users\44792\Pro_Unreal\Naves\Source\Naves\NaveAerea.h
-C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Nave.h
-C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Nave.generated.h
-C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\NaveAerea.generated.h
-C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Enemigo1NaveAerea.generated.h
-C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.31.31103\INCLUDE\cmath
