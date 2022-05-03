@@ -4,8 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "NaveAerea.h"
+#include "Cola.h"
 #include "JugadorNaveAerea.generated.h"
-
 
 UCLASS()
 class NAVES_API AJugadorNaveAerea : public ANaveAerea
@@ -19,6 +19,8 @@ class NAVES_API AJugadorNaveAerea : public ANaveAerea
 	//Algo que coloca la camara sobre el personaje
 	UPROPERTY(Category = Camera, VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"))
 	class USpringArmComponent* CameraBoom;
+
+	Cola<class AProyectil*> ColaProyectiles;
 
 public:
 	//Constructor

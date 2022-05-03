@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 
-template<typename T>
+template<class T>
 class Nodo {
 	friend Cola<T>;
 private:
@@ -17,6 +17,7 @@ public:
 		siguiente = _siguiente;
 	}
 };
+
 
 template<class T>
 class Cola {

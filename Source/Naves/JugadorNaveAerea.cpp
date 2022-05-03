@@ -41,6 +41,20 @@ AJugadorNaveAerea::AJugadorNaveAerea()
 	bCanFire = false;
 	FireForwardValue = 1.0f;
 	FireRightValue = 0.0f;
+	
+	// Cola
+	const FVector MoveDirection = FVector(FireForwardValue, FireRightValue, 0.f).GetClampedToMaxSize(1.0f);
+	const FRotator FireRotation = MoveDirection.Rotation();
+	const FVector SpawnLocation = GetActorLocation() + FireRotation.RotateVector(GunOffset);
+	UWorld* const World = GetWorld();
+	if (World != nullptr)
+	{
+		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
+		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
+		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
+		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
+		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
+	}
 }
 
 void AJugadorNaveAerea::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
