@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define NAVES_Rayo_generated_h
 
-#define Naves_Source_Naves_Rayo_h_15_SPARSE_DATA
-#define Naves_Source_Naves_Rayo_h_15_RPC_WRAPPERS
-#define Naves_Source_Naves_Rayo_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define Naves_Source_Naves_Rayo_h_15_INCLASS_NO_PURE_DECLS \
+#define Naves_Source_Naves_Rayo_h_13_SPARSE_DATA
+#define Naves_Source_Naves_Rayo_h_13_RPC_WRAPPERS
+#define Naves_Source_Naves_Rayo_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Naves_Source_Naves_Rayo_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesARayo(); \
 	friend struct Z_Construct_UClass_ARayo_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ARayo)
 
 
-#define Naves_Source_Naves_Rayo_h_15_INCLASS \
+#define Naves_Source_Naves_Rayo_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesARayo(); \
 	friend struct Z_Construct_UClass_ARayo_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ARayo)
 
 
-#define Naves_Source_Naves_Rayo_h_15_STANDARD_CONSTRUCTORS \
+#define Naves_Source_Naves_Rayo_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ARayo(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ARayo) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Naves_Source_Naves_Rayo_h_15_ENHANCED_CONSTRUCTORS \
+#define Naves_Source_Naves_Rayo_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ARayo(ARayo&&); \
@@ -58,32 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ARayo)
 
 
-#define Naves_Source_Naves_Rayo_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__MeshRayo() { return STRUCT_OFFSET(ARayo, MeshRayo); } \
-	FORCEINLINE static uint32 __PPO__RayoMovement() { return STRUCT_OFFSET(ARayo, RayoMovement); }
-
-
-#define Naves_Source_Naves_Rayo_h_12_PROLOG
-#define Naves_Source_Naves_Rayo_h_15_GENERATED_BODY_LEGACY \
+#define Naves_Source_Naves_Rayo_h_13_PRIVATE_PROPERTY_OFFSET
+#define Naves_Source_Naves_Rayo_h_10_PROLOG
+#define Naves_Source_Naves_Rayo_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Naves_Source_Naves_Rayo_h_15_PRIVATE_PROPERTY_OFFSET \
-	Naves_Source_Naves_Rayo_h_15_SPARSE_DATA \
-	Naves_Source_Naves_Rayo_h_15_RPC_WRAPPERS \
-	Naves_Source_Naves_Rayo_h_15_INCLASS \
-	Naves_Source_Naves_Rayo_h_15_STANDARD_CONSTRUCTORS \
+	Naves_Source_Naves_Rayo_h_13_PRIVATE_PROPERTY_OFFSET \
+	Naves_Source_Naves_Rayo_h_13_SPARSE_DATA \
+	Naves_Source_Naves_Rayo_h_13_RPC_WRAPPERS \
+	Naves_Source_Naves_Rayo_h_13_INCLASS \
+	Naves_Source_Naves_Rayo_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Naves_Source_Naves_Rayo_h_15_GENERATED_BODY \
+#define Naves_Source_Naves_Rayo_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Naves_Source_Naves_Rayo_h_15_PRIVATE_PROPERTY_OFFSET \
-	Naves_Source_Naves_Rayo_h_15_SPARSE_DATA \
-	Naves_Source_Naves_Rayo_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	Naves_Source_Naves_Rayo_h_15_INCLASS_NO_PURE_DECLS \
-	Naves_Source_Naves_Rayo_h_15_ENHANCED_CONSTRUCTORS \
+	Naves_Source_Naves_Rayo_h_13_PRIVATE_PROPERTY_OFFSET \
+	Naves_Source_Naves_Rayo_h_13_SPARSE_DATA \
+	Naves_Source_Naves_Rayo_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Naves_Source_Naves_Rayo_h_13_INCLASS_NO_PURE_DECLS \
+	Naves_Source_Naves_Rayo_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

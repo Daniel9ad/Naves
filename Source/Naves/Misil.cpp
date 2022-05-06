@@ -10,12 +10,9 @@
 
 AMisil::AMisil()
 {	
-	MeshMisil = GetProyectilMesh();
 	// Static reference to the mesh to use for the projectile
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProyectilMeshAsset(TEXT("/Game/Meshes/SM_Paddle.SM_Paddle"));
-	MeshMisil->SetStaticMesh(ProyectilMeshAsset.Object); // Asocio el mesh con una geometria
-
-	// Obtengo el componente de movimiento del proyectil
-	MisilMovement = GetProyectilMovement();
-	MisilMovement->UpdatedComponent = MeshMisil;
+	//Establece la malla del proyectil
+	GetProyectilMesh()->SetStaticMesh(ProyectilMeshAsset.Object);
+	GetProyectilMovement()->UpdatedComponent = GetProyectilMesh();
 }

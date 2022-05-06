@@ -17,8 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeRayo() {}
 	NAVES_API UClass* Z_Construct_UClass_ARayo();
 	NAVES_API UClass* Z_Construct_UClass_AProyectil();
 	UPackage* Z_Construct_UPackage__Script_Naves();
-	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
-	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 // End Cross Module References
 	void ARayo::StaticRegisterNativesARayo()
 	{
@@ -33,15 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeRayo() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeshRayo_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MeshRayo;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RayoMovement_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_RayoMovement;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -55,32 +44,6 @@ void EmptyLinkFunctionForGeneratedCodeRayo() {}
 		{ "ModuleRelativePath", "Rayo.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARayo_Statics::NewProp_MeshRayo_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Projectile" },
-		{ "Comment", "// Malla del proyectil\n" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Rayo.h" },
-		{ "ToolTip", "Malla del proyectil" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARayo_Statics::NewProp_MeshRayo = { "MeshRayo", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARayo, MeshRayo), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARayo_Statics::NewProp_MeshRayo_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARayo_Statics::NewProp_MeshRayo_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ARayo_Statics::NewProp_RayoMovement_MetaData[] = {
-		{ "AllowPrivateAccess", "true" },
-		{ "Category", "Movement" },
-		{ "Comment", "// Componente de movimiento de proyectiles\n" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Rayo.h" },
-		{ "ToolTip", "Componente de movimiento de proyectiles" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ARayo_Statics::NewProp_RayoMovement = { "RayoMovement", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ARayo, RayoMovement), Z_Construct_UClass_UProjectileMovementComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ARayo_Statics::NewProp_RayoMovement_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ARayo_Statics::NewProp_RayoMovement_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ARayo_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARayo_Statics::NewProp_MeshRayo,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ARayo_Statics::NewProp_RayoMovement,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ARayo_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ARayo>::IsAbstract,
 	};
@@ -90,11 +53,11 @@ void EmptyLinkFunctionForGeneratedCodeRayo() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_ARayo_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_ARayo_Statics::PropPointers),
+		0,
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ARayo_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ARayo_Statics::Class_MetaDataParams))
@@ -108,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeRayo() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ARayo, 3648075329);
+	IMPLEMENT_CLASS(ARayo, 67170481);
 	template<> NAVES_API UClass* StaticClass<ARayo>()
 	{
 		return ARayo::StaticClass();

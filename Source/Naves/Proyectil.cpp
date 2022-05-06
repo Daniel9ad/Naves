@@ -11,12 +11,8 @@
 // Constructor
 AProyectil::AProyectil()
 {
-	// Static reference to the mesh to use for the projectile
-	//static ConstructorHelpers::FObjectFinder<UStaticMesh> ProyectilMeshAsset(TEXT("/Game/Meshes/TwinStickProjectile.TwinStickProjectile"));
-
-	// Create mesh component for the projectile sphere
+	// Malla proyectil
 	ProyectilMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("ProyectilMesh"));
-	//ProyectilMesh->SetStaticMesh(ProyectilMeshAsset.Object);
 	ProyectilMesh->SetupAttachment(RootComponent);
 	ProyectilMesh->BodyInstance.SetCollisionProfileName("Proyectile");
 	ProyectilMesh->OnComponentHit.AddDynamic(this, &AProyectil::OnHit); //configure una notificación para cuando este componente toque algo
@@ -24,7 +20,6 @@ AProyectil::AProyectil()
 
 	// Use a ProjectileMovementComponent to govern this projectile's movement
 	ProyectilMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectilMovement"));
-	//ProyectilMovement->UpdatedComponent = ProyectilMesh;
 	ProyectilMovement->InitialSpeed = 1000.f;
 	ProyectilMovement->MaxSpeed = 1000.f;
 	ProyectilMovement->bRotationFollowsVelocity = true;

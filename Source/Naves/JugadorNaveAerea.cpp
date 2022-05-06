@@ -7,7 +7,6 @@
 #include "Rayo.h"
 #include "Misil.h"
 #include "Bomba.h"
-#include "Cola.h"
 
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
@@ -42,7 +41,7 @@ AJugadorNaveAerea::AJugadorNaveAerea()
 	bCanFire = false;
 	FireForwardValue = 1.0f;
 	FireRightValue = 0.0f;
-	
+	/*
 	// Cola
 	const FVector MoveDirection = FVector(FireForwardValue, FireRightValue, 0.f).GetClampedToMaxSize(1.0f);
 	const FRotator FireRotation = MoveDirection.Rotation();
@@ -55,7 +54,7 @@ AJugadorNaveAerea::AJugadorNaveAerea()
 		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
 		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
 		ColaProyectiles.Push(World->SpawnActor<AProyectil>(SpawnLocation, FireRotation));
-	}
+	}*/
 }
 
 void AJugadorNaveAerea::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)

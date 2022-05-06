@@ -10,12 +10,8 @@
 
 ABala::ABala()
 {	
-	
-	MeshBala = GetProyectilMesh();
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProyectilMeshAsset(TEXT("/Game/Meshes/TwinStickProjectile.TwinStickProjectile"));
-	MeshBala->SetStaticMesh(ProyectilMeshAsset.Object);
-
-	BalaMovement = GetProyectilMovement();
-	BalaMovement->UpdatedComponent = MeshBala;
-
+	//Establece la malla del proyectil
+	GetProyectilMesh()->SetStaticMesh(ProyectilMeshAsset.Object);
+	GetProyectilMovement()->UpdatedComponent = GetProyectilMesh();
 }

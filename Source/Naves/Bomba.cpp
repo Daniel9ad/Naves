@@ -10,12 +10,9 @@
 
 ABomba::ABomba()
 {	
-	MeshBomba = GetProyectilMesh();
 	// Static reference to the mesh to use for the projectile
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProyectilMeshAsset(TEXT("/Game/Meshes/SM_KitRobot_ConnectorC.SM_KitRobot_ConnectorC"));
-	MeshBomba->SetStaticMesh(ProyectilMeshAsset.Object); // Asocio el mesh con una geometria
-
-	// Obtengo el componente de movimiento del proyectil
-	BombaMovement = GetProyectilMovement();
-	BombaMovement->UpdatedComponent = MeshBomba;
+	//Establece la malla del proyectil
+	GetProyectilMesh()->SetStaticMesh(ProyectilMeshAsset.Object);
+	GetProyectilMovement()->UpdatedComponent = GetProyectilMesh();
 }

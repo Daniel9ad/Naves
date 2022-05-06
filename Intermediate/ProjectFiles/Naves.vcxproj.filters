@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Naves.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5F001DF7-0D2B-490A-8DCE-0D073F4582B6}</UniqueIdentifier>
+      <UniqueIdentifier>{188AE6CE-3461-4AB4-B8FF-4AB0939039A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Naves.Target.cs">
       <Filter>Source</Filter>
@@ -14,7 +14,7 @@
     <None Include="..\..\.gitattributes" />
     <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F89F984E-4DFA-4DC9-AEC6-CD8B32B7FCE6}</UniqueIdentifier>
+      <UniqueIdentifier>{A716A371-FC2E-4FCB-A162-76C46274C636}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -29,7 +29,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Naves">
-      <UniqueIdentifier>{81FBCA85-B4FE-48A1-B5A3-C3B9AF67F340}</UniqueIdentifier>
+      <UniqueIdentifier>{2C659276-F60C-4FB3-898D-F3BBB26FFFEF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Naves\Bala.cpp">
       <Filter>Source\Naves</Filter>
@@ -113,6 +113,12 @@
       <Filter>Source\Naves</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Naves\NaveAerea.h">
+      <Filter>Source\Naves</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Naves\NaveEspacial.cpp">
+      <Filter>Source\Naves</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Naves\NaveEspacial.h">
       <Filter>Source\Naves</Filter>
     </ClInclude>
     <None Include="..\..\Source\Naves\Naves.Build.cs">

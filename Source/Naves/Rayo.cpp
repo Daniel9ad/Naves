@@ -10,13 +10,9 @@
 
 ARayo::ARayo()
 {   
-	// Obtengo el componente malla
-	MeshRayo = GetProyectilMesh();
 	// Static reference to the mesh to use for the projectile
 	static ConstructorHelpers::FObjectFinder<UStaticMesh> ProyectilMeshAsset(TEXT("/Game/Meshes/SM_KitRobot_Fin_01.SM_KitRobot_Fin_01"));
-	MeshRayo->SetStaticMesh(ProyectilMeshAsset.Object); // Asocio el mesh con una geometria
-
-	// Obtengo el componente de movimiento del proyectil
-	RayoMovement = GetProyectilMovement();
-	RayoMovement->UpdatedComponent = MeshRayo;
+	//Establece la malla del proyectil
+	GetProyectilMesh()->SetStaticMesh(ProyectilMeshAsset.Object);
+	GetProyectilMovement()->UpdatedComponent = GetProyectilMesh();
 }

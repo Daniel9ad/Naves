@@ -1,0 +1,11 @@
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Development\Naves\Definitions.Naves.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\NavesGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\NavesGameModeBase.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\NaveEspacial.h
+C:\Users\44792\Pro_Unreal\Naves\Source\Naves\Nave.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\Nave.generated.h
+C:\Users\44792\Pro_Unreal\Naves\Intermediate\Build\Win64\UE4Editor\Inc\Naves\NaveEspacial.generated.h

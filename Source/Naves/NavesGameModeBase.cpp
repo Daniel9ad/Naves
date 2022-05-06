@@ -2,4 +2,9 @@
 
 
 #include "NavesGameModeBase.h"
+#include "NaveEspacial.h"
 
+
+void ANavesGameModeBase::BeginPlay()
+{
+}
